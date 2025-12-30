@@ -222,7 +222,7 @@ export default function Home() {
         {/* No Results Message */}
         {!loading && searchQuery && results.length === 0 && !error && (
           <div className="mt-8 text-gray-500 text-lg">
-            No results found for "{searchQuery}"
+            No results found for &quot;{searchQuery}&quot;
           </div>
         )}
       </div>
